@@ -4,7 +4,7 @@ metadata:
   name: rabbitmq-broker-config
   namespace: default
 data:
-  RABBITMQ_PORT: 5672
+  RABBITMQ_PORT: "5672"
   RABBITMQ_PROTOCOL: amqp
   RABBITMQ_QUEUE: temperature
 ---
